@@ -18,7 +18,7 @@ hilarious = False
 joke_evaluation = "Isn't that joke so funny?! %r"
 print(joke_evaluation % hilarious)
 
-# having a sentence be broken in the middle n joined together by adding them
+# having a sentence be broken in the middle and joined together by adding them
 w = "This is the left side of..."
 e = "a string with a right side."
 
