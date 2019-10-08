@@ -23,3 +23,10 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 print(w + e)
+
+# More stuff 10-8
+
+print("Mary had a little lamb.")
+print("Its fleece was white as %s." % 'snow')
+print("And everywhere that Mary went.")
+print("." * 10)
