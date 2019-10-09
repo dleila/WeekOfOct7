@@ -70,7 +70,7 @@ months = "Jan\nFeb\nMar\nApr\nJun\nJul\nAug"
 print("Here are the days: ", days)
 print("Here are the months: ", months)
 
-("""
+print("""
 There is something going on here.
 With the three double-quotes.
 We'll be able to type as much as we like.
@@ -89,3 +89,31 @@ I'll make a list:
 \t* Fishies
 \t* Catnip\n\t* Grass
 """
+
+print(tabbyCat)
+print(persianCat)
+print(taskCat)
+
+# Escape Seq
+# \\
+# \'
+# \"
+# \a
+# \b
+# \f
+# \n
+# \N{name}
+# \r
+# \t
+# \uxxxx
+# \Uxxxxxxxx
+# \v
+# \ooo
+# \xhh
+
+# What's the following code do:
+#  while True
+#       for i in ["/","-","|","\\","|"]:
+#           print("%s\r" % i, end='')
+
+# Can you replace """ with '''
