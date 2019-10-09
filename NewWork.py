@@ -70,6 +70,7 @@ months = "Jan\nFeb\nMar\nApr\nJun\nJul\nAug"
 print("Here are the days: ", days)
 print("Here are the months: ", months)
 
+# You don't have to put print in front of every line, you just put (""" and """) at the beginning and end of every line
 print("""
 There is something going on here.
 With the three double-quotes.
@@ -77,12 +78,15 @@ We'll be able to type as much as we like.
 Even 4 lines if we want, or 5, or 6.
 """)
 
-# What if I didn't
+# What if I didn't like Jan being listed on the line with the rest of the
 # text and many from the other months? How could I fix that?
+# You could put \n so it puts each word on a different line
 
 # More escaping
 tabbyCat = "\tI'm tabbed in."
+# put \n before the word you want to be moved down a line
 persianCat = "I'm split\non a line."
+# talking without having to say print
 taskCat = """
 I'll make a list: 
 \t* Cat food
