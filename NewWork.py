@@ -67,5 +67,25 @@ print(formatter % (formatter, formatter, formatter, formatter))
 # Time for some strange stuff in the world of printing...
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nJun\nJul\nAug"
-print("Here are the days: "), days
-print("Here are the months: "), months
+print("Here are the days: ", days)
+print("Here are the months: ", months)
+
+("""
+There is something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+""")
+
+# What if I didn't
+# text and many from the other months? How could I fix that?
+
+# More escaping
+tabbyCat = "\tI'm tabbed in."
+persianCat = "I'm split\non a line."
+taskCat = """
+I'll make a list: 
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
