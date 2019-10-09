@@ -62,4 +62,10 @@ print(formatter % (True, False, False, True))
 print(formatter % (formatter, formatter, formatter, formatter))
 
 # Why did I use %r instead of %s?
-# Because %r can be put there all by itself while %s needs a sentence to be places in
+# Because %r can be put there all by itself while %s needs a sentence to be placed in
+
+# Time for some strange stuff in the world of printing...
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nJun\nJul\nAug"
+print("Here are the days: "), days
+print("Here are the months: "), months
