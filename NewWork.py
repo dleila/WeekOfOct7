@@ -129,3 +129,14 @@ age = input("How old are you? ")
 height = input("How tall are you? ")
 
 print("So, you really %r old and are %r tall? Wow...." % (age, height))
+
+birthday = input("What's your birthday? ")
+grade = input("What grade are you in? ")
+
+print("You were born on %r? So was I! I'm in %r too." % (birthday, grade))
+
+lollipops = input("How many lollipops have you eaten today? ")
+jellybeans = input("How many jellybeans are in this jar? ")
+
+print("You ate %r lollipops today, where did you get them? It's impressive that you counted %r jellybeans, I lost count." % (lollipops, jellybeans))
+
