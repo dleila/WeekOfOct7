@@ -99,6 +99,7 @@ print(persianCat)
 print(taskCat)
 
 # Escape Seq
+# The backslash or escape character
 # \\
 # \'
 # \"
@@ -119,6 +120,7 @@ print(taskCat)
 #  while True
 #       for i in ["/","-","|","\\","|"]:
 #           print("%s\r" % i, end='')
+# It makes a loop and will keep on doing it until it isn't true anymore
 
 # Can you replace """ with '''
 # Yes if you do a little definition beforehand and put something like """ = '''
